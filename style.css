@@ -1,0 +1,159 @@
+body{
+  font-family: 'Merriweather', serif;
+  position: relative;
+}
+.reference{
+  width: 100vw;
+  position: fixed;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 5;
+  opacity:0;
+  right:100vw;
+}
+/* .hide{
+  right: 100vw;
+} */
+.opacity{
+  opacity: 0;
+}
+/* .moveright{
+-webkit-animation-name: "enter";
+-webkit-animation-duration: 3s;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes enter {
+0%{
+  right:100vw;
+  opacity: 0;
+}
+80{
+  right:50vw;
+}
+100%{
+  right:0vw;
+  opacity: 1;
+}
+}
+.tran{
+  opacity: 0;
+} */
+/* .moveleft{
+-webkit-animation-name: "leave";
+-webkit-animation-duration: 3s;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes leave {
+0%{
+  right:0vw;
+  opacity: 1;
+}
+80{
+  right:50vw;
+}
+100%{
+  right:100vw;
+  opacity: 0;
+}
+} */
+.left{
+  top: 49vh;
+  width: 40px;
+  position: fixed;
+  left: 2vw;
+  z-index: 3;
+}
+.right{
+  position: fixed;
+  top: 49vh;
+  right: 1vw;
+  width: 40px;
+  display: block;
+  z-index: 4;
+}
+.info{
+  /* position: fixed; */
+  padding-left: 10vw;
+  top:100px;
+  width: 38vw;
+  float: left;
+}
+.information{
+  line-height: 28px;
+  font-size: 13px;
+  padding-top: 30px;
+}
+h1{
+  padding-top: 100px;
+}
+.im1{
+  background-image: image(image/1.jpg);
+  width: 50vw;
+  float: right;
+}
+.im2{
+  background-image: image(image/2.jpg);
+  width: 50vw;
+  float: right;
+}
+.graphic{
+  background-color: rgb(255, 205, 0);
+  width: 100vw;
+  height: 110vh;
+  margin-left: -10px;
+}
+.svgs{
+  position: fixed;
+  width: 100vw;
+}
+
+.g1{
+  left: -30vw;
+  top: 5vh;
+}
+.g2{
+  left: -13vw;
+  top: -5vh;
+}
+.g3{
+  left: -12vw;
+  top: -28vh;
+}
+.g4{
+  left: 20vw;
+  top: 25vh;
+}
+.g5{
+  left: 30vw;
+  top: -30vh;
+}
+.shape{
+  z-index: 2;
+}
+
+/* shadows */
+.shadow{
+  opacity: 0.5;
+  z-index: 1;
+}
+.g1c{
+  left: -30vw;
+  top: 5vh;
+}
+.g2c{
+  left: -13vw;
+  top: -5vh;
+}
+.g3c{
+  left: -12vw;
+  top: -28vh;
+}
+.g4c{
+  left: 20vw;
+  top: 25vh;
+}
+.g5c{
+  left: 30vw;
+  top: -30vh;
+}
