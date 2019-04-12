@@ -30,9 +30,7 @@ $( ".right" ).click(function() {
   });
 });
 
-var xx = event.pageX;
-var yy = event.pageY;
 
 var X = $('.g1').offset().top;
 var Y = $('.g1').offset().left;
-console.log("X","Y");
+console.log(X,Y);
