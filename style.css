@@ -1,6 +1,7 @@
 body{
   font-family: 'Lato', sans-serif;
   position: relative;
+  cursor: url(cursor.png) 10 10, pointer;
 }
 .reference{
   width: 100vw;
@@ -108,25 +109,59 @@ h1{
   width: 100vw;
 }
 
+
+
+@-webkit-keyframes show {
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
+}
+
+@-webkit-keyframes show1 {
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 0.3;
+}
+}
 .g1{
   left: -30vw;
   top: 5vh;
+  -webkit-animation-name: "show";
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g2{
   left: -13vw;
   top: -5vh;
+  -webkit-animation-name: "show";
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g3{
   left: -12vw;
   top: -28vh;
+  -webkit-animation-name: "show";
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g4{
   left: 20vw;
   top: 25vh;
+  -webkit-animation-name: "show";
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g5{
   left: 30vw;
   top: -30vh;
+  -webkit-animation-name: "show";
+  -webkit-animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
 }
 .shape{
   z-index: 2;
@@ -140,20 +175,35 @@ h1{
 .g1c{
   left: -30vw;
   top: 5vh;
+  -webkit-animation-name: "show1";
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g2c{
   left: -13vw;
   top: -5vh;
+  -webkit-animation-name: "show1";
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g3c{
   left: -12vw;
   top: -28vh;
+  -webkit-animation-name: "show1";
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g4c{
   left: 20vw;
   top: 25vh;
+  -webkit-animation-name: "show1";
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
 }
 .g5c{
   left: 30vw;
   top: -30vh;
+  -webkit-animation-name: "show1";
+  -webkit-animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
 }
